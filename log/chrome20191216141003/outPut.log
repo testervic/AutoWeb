@@ -1,0 +1,24 @@
+2019-12-16 14:10:03,653  - INFO - ----  test001_登录失败_div.container>ul>li:nth-child(2)_css_click_         ----
+2019-12-16 14:10:04,269  - INFO - ----  test001_登录失败_input-lg_class_name_send_keys_lose1        ----
+2019-12-16 14:10:04,956  - INFO - ----  test001_登录失败_user_password_id_send_keys_1231231232        ----
+2019-12-16 14:10:05,572  - INFO - ----  test001_登录失败_div.form-actions_css_click_         ----
+2019-12-16 14:10:06,186  - INFO - ----  test001_登录失败_div.alert-warning_css_ _         ----
+2019-12-16 14:10:06,186  - INFO - [CheckPoint_1]: testALoginFail_ : OK
+2019-12-16 14:10:06,481  - INFO - ----  test002_登录成功_div.container>ul>li:nth-child(2)_css_click_         ----
+2019-12-16 14:10:06,604  - INFO - ----  test002_登录成功_input-lg_class_name_send_keys_469858846@qq.com        ----
+2019-12-16 14:10:07,399  - INFO - ----  test002_登录成功_user_password_id_send_keys_ZWwodeai1314        ----
+2019-12-16 14:10:08,039  - INFO - ----  test002_登录成功_div.form-actions_css_click_         ----
+2019-12-16 14:10:08,660  - INFO - ----  test002_登录成功_dropdown-avatar_class_name_click_         ----
+2019-12-16 14:10:08,738  - INFO - ----  test002_登录成功_//ul[@class='dropdown-menu']/li/a[contains(text(),'test469858846')]_xpath_ _         ----
+2019-12-16 14:10:08,738  - INFO - [CheckPoint_2]: testBLogin_ : OK
+2019-12-16 14:10:14,400  - INFO - ----  test002_登录成功_div.container>ul>li:nth-child(2)_css_click_         ----
+2019-12-16 14:10:15,016  - INFO - ----  test002_登录成功_input-lg_class_name_send_keys_469858846@qq.com        ----
+2019-12-16 14:10:15,767  - INFO - ----  test002_登录成功_user_password_id_send_keys_ZWwodeai1314        ----
+2019-12-16 14:10:16,391  - INFO - ----  test002_登录成功_div.form-actions_css_click_         ----
+2019-12-16 14:10:17,109  - INFO - ----  test002_登录成功_dropdown-avatar_class_name_click_         ----
+2019-12-16 14:10:17,704  - INFO - ----  test003_热门话题_dropdown-avatar_class_name_click_         ----
+2019-12-16 14:10:17,779  - INFO - ----  test003_热门话题_//ul[@class='dropdown-menu']/li/a_xpath_click_         ----
+2019-12-16 14:10:18,398  - INFO - ----  test003_热门话题_//ul[@class="list-group"]/li[1]/div/a[2]_xpath_get_text_         ----
+2019-12-16 14:10:18,439  - INFO - ----  test003_热门话题_ul.list-group > li:nth-child(1) > div.title > a:nth-child(2)_css_click_         ----
+2019-12-16 14:10:18,554  - INFO - ----  test003_热门话题_/html/head/title_xpath_get_text_         ----
+2019-12-16 14:10:18,571  - INFO - [CheckPoint_3]: testHotTopic_ : OK

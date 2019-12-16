@@ -1,0 +1,32 @@
+testinfo:
+    - id: test002
+      title: 登录成功
+      info: 打开testerhome
+testcase:
+    - element_info: div.container>ul>li:nth-child(2)
+      find_type: css
+      operate_type: click
+      info: 点击登录
+    - element_info: input-lg
+      find_type: class_name
+      operate_type: send_keys
+      msg: 469858846@qq.com
+      info: 输入用户名
+    - element_info: user_password
+      find_type: id
+      operate_type: send_keys
+      msg: ZWwodeai1314
+      info: 输入密码
+    - element_info: div.form-actions
+      find_type: css
+      operate_type: click
+      info: 点击登录
+    - element_info: dropdown-avatar
+      find_type: class_name
+      operate_type: click
+      info: 点击图像
+
+check:
+    - element_info: //ul[@class='dropdown-menu']/li/a[contains(text(),'test469858846')]
+      find_type: xpath
+      info: 查找用户名成功
