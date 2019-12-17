@@ -70,6 +70,8 @@ class OperateElement:
             if operate.get("operate_type", "0") == "0":  # 如果没有此字段，说明没有相应操作，一般是检查点，直接判定为成功
                 return {"result": True}
             elements = {
+                be.SWIPE_DOWN: lambda: self.swipeToDown(),
+                be.SWIPE_UP: lambda: self.swipeToUp(),
                 be.CLICK: lambda: self.click(operate),
                 be.GET_VALUE: lambda: self.get_value(operate),
                 be.GET_TEXT: lambda: self.get_text(operate),
@@ -171,3 +173,26 @@ class OperateElement:
 
         }
         return elements[operate["find_type"]]()
+
+    def swipeToDown(self):
+        # height = self.driver.get_window_size()["height"]
+        # x1 = int(self.driver.get_window_size()["width"] * 0.5)
+        # y1 = int(height * 0.25)
+        # y2 = int(height * 0.75)
+        #
+        # self.driver.swipe(x1, y1, x1, y2, 1000)
+        # # self.driver.swipe(0, 1327, 500, 900, 1000)
+        self.driver.execute_script('window.scrollBy(0,500)')
+        print("--swipeToDown--")
+        return {"result": True}
+
+    def swipeToUp(self):
+        # height = self.driver.get_window_size()["height"]
+        # width = self.driver.get_window_size()["width"]
+        # self.driver.swipe(width / 2, height * 3 / 4, width / 2, height / 4)
+        self.driver.execute_script('window.scrollBy(0,-500)')
+        print("执行上拉")
+        return {"result": True}
+        # for i in range(n):
+        #     self.driver.swipe(540, 800, 540, 560, 0)
+        #     time.sleep(2)

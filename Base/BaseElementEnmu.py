@@ -10,6 +10,8 @@ class Element(object):
     find_element_by_class_name = "class_name"
     find_element_by_link_text = "link_text"
     CLICK = "click"
+    SWIPE_DOWN = "swipe_down"
+    SWIPE_UP = "swipe_up"
     GET_TEXT = "get_text"
     SEND_KEYS = "send_keys"
     GET_VALUE = "get_value"

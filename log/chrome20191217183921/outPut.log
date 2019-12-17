@@ -1,0 +1,16 @@
+2019-12-17 18:39:32,315  - INFO - ----  test001_登录成功_/html/body/sst-app/sst-app/div[1]/nav/div/div[6]/div[1]/div[1]_xpath_click_         ----
+2019-12-17 18:39:32,663  - INFO - ----  test001_登录成功_//*[@id="usr2"]_xpath_send_keys_zw.vic@qq.com        ----
+2019-12-17 18:39:33,457  - INFO - ----  test001_登录成功_//*[@id="usr"]_xpath_send_keys_ZWwodeai1314        ----
+2019-12-17 18:39:34,102  - INFO - ----  test001_登录成功_/html/body/sst-app/sst-app/login/div[2]/div[2]/div/div/form/div[3]/button_xpath_click_         ----
+2019-12-17 18:39:35,805  - INFO - ----  test001_登录成功_/html/body/sst-app/sst-app/div[1]/nav/div/div[6]/div[1]/div[1]_xpath_default_check_         ----
+2019-12-17 18:39:35,806  - INFO - [CheckPoint_1]: testALogin_ : OK
+2019-12-17 18:39:49,399  - INFO - ----  test002_下订单_/html/body/sst-app/sst-app/div[1]/nav/div/div[6]/div[1]/div[1]/a/span[1]_xpath_swipe_down_         ----
+2019-12-17 18:39:49,565  - INFO - ----  test002_下订单_/html/body/sst-app/sst-app/div[1]/nav/div/div[6]/div[1]/div[1]/a/span[1]_xpath_swipe_down_         ----
+2019-12-17 18:39:49,724  - INFO - ----  test002_下订单_/html/body/sst-app/sst-app/section/div/home-view/div[2]/div[4]/div[1]/div/add-to-cart-component/button_xpath_click_         ----
+2019-12-17 18:39:50,308  - INFO - ----  test002_下订单_/html/body/sst-app/sst-app/div[1]/nav/div/div[6]/div[2]_xpath_click_         ----
+2019-12-17 18:39:55,180  - INFO - ----  test002_下订单_/html/body/sst-app/sst-app/div[1]/nav/div/div[6]/div[2]_xpath_click_         ----
+2019-12-17 18:39:55,404  - INFO - ----  test002_下订单_/html/body/sst-app/sst-app/section/div/cart/div[1]/div[4]/div[1]/ul/li[1]/div[2]/div[1]/div/span[1]/button_xpath_click_         ----
+2019-12-17 18:39:58,542  - INFO - ----  test002_下订单_/html/body/sst-app/sst-app/section/div/cart/div[1]/div[5]/div/div[1]/button_xpath_click_         ----
+2019-12-17 18:40:03,669  - INFO - ----  test002_下订单_/html/body/sst-app/sst-app/section/div/shipping/div[2]/div[2]/div/div[1]/button_xpath_click_         ----
+2019-12-17 18:40:08,791  - INFO - ----  test002_下订单_/html/body/sst-app/sst-app/section/div/payment/div[1]/div[4]/div/div[1]/button_xpath_ _         ----
+2019-12-17 18:40:08,792  - INFO - [CheckPoint_2]: testBPlaceOrder_ : OK

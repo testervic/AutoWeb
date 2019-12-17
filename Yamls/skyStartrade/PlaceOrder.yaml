@@ -1,0 +1,51 @@
+testinfo:
+    - id: test002
+      title: 下订单
+      info: 下订单
+testcase:
+    - element_info: /html/body/sst-app/sst-app/div[1]/nav/div/div[6]/div[1]/div[1]/a/span[1]
+      find_type: xpath
+      operate_type: swipe_down
+      info: 向下滑动
+    - element_info: /html/body/sst-app/sst-app/div[1]/nav/div/div[6]/div[1]/div[1]/a/span[1]
+      find_type: xpath
+      operate_type: swipe_down
+      info: 向下滑动
+    - element_info: /html/body/sst-app/sst-app/section/div/home-view/div[2]/div[4]/div[1]/div/add-to-cart-component/button
+      find_type: xpath
+      operate_type: click
+      info: 点击商品加入购物车
+    - element_info: /html/body/sst-app/sst-app/div[1]/nav/div/div[6]/div[2]
+      find_type: xpath
+      operate_type: click
+      info: 进入购物车
+      is_time: 3
+    - element_info: /html/body/sst-app/sst-app/div[1]/nav/div/div[6]/div[2]
+      find_type: xpath
+      operate_type: click
+      info: 点击购物车
+    - element_info: /html/body/sst-app/sst-app/section/div/cart/div[1]/div[4]/div[1]/ul/li[1]/div[2]/div[1]/div/span[1]/button
+      find_type: xpath
+      operate_type: click
+      info: 减去商品
+      is_time: 3
+    - element_info: /html/body/sst-app/sst-app/section/div/cart/div[1]/div[5]/div/div[1]/button
+      find_type: xpath
+      operate_type: click
+      info: 点击结算
+      is_time: 5
+    - element_info: /html/body/sst-app/sst-app/section/div/shipping/div[2]/div[2]/div/div[1]/button
+      find_type: xpath
+      operate_type: click
+      info: 点击继续付款
+      is_time: 5
+#    - element_info: /html/body/sst-app/sst-app/section/div/payment/div[1]/div[4]/div/div[1]/button
+#      find_type: xpath
+#      operate_type: click
+#      info: 下订单
+
+check:
+    - element_info: /html/body/sst-app/sst-app/section/div/payment/div[1]/div[4]/div/div[1]/button
+      find_type: xpath
+      info: 提交订单成功
+      is_time: 10

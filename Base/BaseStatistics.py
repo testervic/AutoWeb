@@ -46,8 +46,9 @@ def countInfo(**kwargs):
     if kwargs["result"]:
         _info["result"] = "通过"
         kwargs["logTest"].checkPointOK(driver=kwargs["driver"], caseName=kwargs["testInfo"][0]["title"],
-                                       checkPoint=kwargs["caseName"] + "_" + kwargs["testInfo"][0].get(
-                                           "msg", " "))
+                     checkPoint=kwargs["caseName"] + "_" + kwargs["testInfo"][0].get(
+                         "msg", " "))
+        _info["img"] = kwargs["logTest"].screenshotOK(driver=kwargs["driver"], caseName=kwargs["testInfo"][0]["title"])
     else:
         _info["result"] = "失败"  # 用例接开关
         _info["img"] = kwargs["logTest"].checkPointNG(driver=kwargs["driver"], caseName=kwargs["testInfo"][0]["title"],

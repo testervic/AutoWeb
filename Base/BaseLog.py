@@ -88,7 +88,7 @@ class Log:
         print("==用例_%s检查点成功==" % caseName)
 
         # take shot 默认去掉成功截图
-        # self.screenshotOK(driver, caseName)
+        self.screenshotOK(driver, caseName)
 
     def checkPointNG(self, driver, caseName, checkPoint):
         """write the case's checkPoint(NG)
@@ -116,6 +116,7 @@ class Log:
         sleep(1)
         # driver.get_screenshot_as_file(os.path.join(screenshotPath, screenshotName))
         driver.get_screenshot_as_file(os.path.join(screenshotPath + screenshotName))
+        return os.path.join(screenshotPath + screenshotName)
 
     def screenshotNG(self, driver, caseName):
         """screen shot

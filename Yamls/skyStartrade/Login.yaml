@@ -1,0 +1,30 @@
+testinfo:
+    - id: test001
+      title: 登录成功
+      launch: 1
+      info: 打开
+testcase:
+    - element_info: /html/body/sst-app/sst-app/div[1]/nav/div/div[6]/div[1]/div[1]
+      find_type: xpath
+      operate_type: click
+      info: 点击登录
+    - element_info: //*[@id="usr2"]
+      find_type: xpath
+      operate_type: send_keys
+      msg: zw.vic@qq.com
+      info: 输入用户名
+    - element_info: //*[@id="usr"]
+      find_type: xpath
+      operate_type: send_keys
+      msg: ZWwodeai1314
+      info: 输入密码
+    - element_info: /html/body/sst-app/sst-app/login/div[2]/div[2]/div/div/form/div[3]/button
+      find_type: xpath
+      operate_type: click
+      info: 点击登录
+
+check:
+    - element_info: /html/body/sst-app/sst-app/div[1]/nav/div/div[6]/div[1]/div[1]
+      find_type: xpath
+      operate_type: default_check
+      info: 登录成功

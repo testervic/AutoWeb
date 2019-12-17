@@ -1,4 +1,3 @@
-__author__ = 'shikun'
 import yaml
 from yaml.scanner import ScannerError
 import os
@@ -8,7 +7,7 @@ import os
 def getYam(path):
     try:
         with open(path, encoding='utf-8') as f:
-            x = yaml.load(f)
+            x = yaml.load(f, Loader=yaml.FullLoader)
             return [True, x]
     except FileNotFoundError:
         print("==用例文件不存在==")

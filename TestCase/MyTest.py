@@ -14,6 +14,7 @@ class MyTest(ParametrizedTestCase):
                "caseName": sys._getframe().f_code.co_name}
         page = LoginPage(app)
         page.operate()
+        page.checkPoint()
 
     def testHotTopic(self):
         self.login()

@@ -1,4 +1,3 @@
-__author__ = 'shikun'
 import xlsxwriter
 import os
 
@@ -56,7 +55,7 @@ class OperateReport:
 
     def detail(self, worksheet, info):
         # 设置列行的宽高
-        worksheet.set_column("A:A", 30)
+        worksheet.set_column("A:A", 20)
         worksheet.set_column("B:B", 20)
         worksheet.set_column("C:C", 20)
         worksheet.set_column("D:D", 20)
@@ -64,19 +63,19 @@ class OperateReport:
         worksheet.set_column("F:F", 20)
         worksheet.set_column("G:G", 20)
         worksheet.set_column("H:H", 20)
-        worksheet.set_column("I:I", 20)
-        worksheet.set_column("J:J", 20)
+        worksheet.set_column("I:I", 30)
+        worksheet.set_column("J:J", 30)
 
-        worksheet.set_row(1, 30)
-        worksheet.set_row(2, 30)
-        worksheet.set_row(3, 30)
-        worksheet.set_row(4, 30)
-        worksheet.set_row(5, 30)
-        worksheet.set_row(6, 30)
-        worksheet.set_row(7, 30)
-        worksheet.set_row(8, 30)
-        worksheet.set_row(9, 30)
-        worksheet.set_row(10, 30)
+        worksheet.set_row(1, 40)
+        worksheet.set_row(2, 40)
+        worksheet.set_row(3, 40)
+        worksheet.set_row(4, 40)
+        worksheet.set_row(5, 40)
+        worksheet.set_row(6, 40)
+        worksheet.set_row(7, 40)
+        worksheet.set_row(8, 40)
+        worksheet.set_row(9, 40)
+        worksheet.set_row(10, 40)
 
         worksheet.merge_range('A1:J1', '测试详情', get_format(self.wd, {'bold': True, 'font_size': 18, 'align': 'center',
                                                                     'valign': 'vcenter', 'bg_color': 'blue',
@@ -101,12 +100,13 @@ class OperateReport:
             _write_center(worksheet, "F" + str(temp), item["step"], self.wd)
             _write_center(worksheet, "G" + str(temp), item["checkStep"], self.wd)
             _write_center(worksheet, "H" + str(temp), item["result"], self.wd)
+            _write_center(worksheet, "I" + str(temp), "", self.wd)
             if item.get("img", "false") == "false":
                 _write_center(worksheet, "I" + str(temp), "", self.wd)
                 worksheet.set_row(temp, 30)
             else:
-                worksheet.insert_image('J' + str(temp), item["img"],
-                                       {'x_scale': 0.1, 'y_scale': 0.1, 'border': 1})
+                worksheet.insert_image('I' + str(temp), item["img"],
+                                       {'x_scale': 0.2, 'y_scale': 0.2, 'border': 1})
                 worksheet.set_row(temp - 1, 110)
             temp += 1
 

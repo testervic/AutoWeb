@@ -58,11 +58,13 @@ class ParametrizedTestCase(unittest.TestCase):
 
     @staticmethod
     def parametrize(testcase_klass, param=None):
-        # print("---parametrize-----")
-        # print(param)
+        print("---parametrize-----")
+        print(param)
         testloader = unittest.TestLoader()
+        #testnames = testloader.getTestCaseNames(testcase_klass)
         testnames = testloader.getTestCaseNames(testcase_klass)
         suite = unittest.TestSuite()
+        print(testnames)
         for name in testnames:
             suite.addTest(testcase_klass(name, param=param))
         return suite
