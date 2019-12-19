@@ -49,5 +49,5 @@ if __name__ == '__main__':
     port = "465"
     header_msg = "接口测试"
     attach = "接口测试"
-    report = PATH("../Runner/report.xlsx")
+    report = PATH("../Runner/ReportDetail.xlsx")
     send_mail(to_addr = to_addr, mail_host = mail_host, mail_user=mail_user, port=port, mail_pass=mail_pass, header_msg=header_msg, report=report, attach=attach, report_name="接口测试报告")
