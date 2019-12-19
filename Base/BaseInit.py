@@ -14,7 +14,7 @@ def mk_file():
 
     data = read(PATH("../Log/"+Element.INFO_FILE))
 
-    data["version"] = "2019.4.28"
+    data["version"] = "2019.01.01"
     data["sum"] = 0
     data["pass"] = 0
     data["fail"] = 0

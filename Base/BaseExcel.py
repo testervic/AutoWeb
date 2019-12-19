@@ -63,7 +63,7 @@ class OperateReport:
         worksheet.set_column("F:F", 20)
         worksheet.set_column("G:G", 20)
         worksheet.set_column("H:H", 20)
-        worksheet.set_column("I:I", 30)
+        worksheet.set_column("I:I", 40)
         worksheet.set_column("J:J", 30)
 
         worksheet.set_row(1, 40)
@@ -106,7 +106,7 @@ class OperateReport:
                 worksheet.set_row(temp, 30)
             else:
                 worksheet.insert_image('I' + str(temp), item["img"],
-                                       {'x_scale': 0.2, 'y_scale': 0.2, 'border': 1})
+                                       {'x_scale': 0.2, 'y_scale': 0.15, 'border': 1})
                 worksheet.set_row(temp - 1, 110)
             temp += 1
 
