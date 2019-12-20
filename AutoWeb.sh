@@ -9,13 +9,16 @@ log_name=${TEXT%%:*}
 #echo "$TEXT"
 echo "$log_name"
 cd $log_name
-result=`tail -n 2 outPut.log | grep CheckPoint outPut.log |grep suscess`
-if [[ "$result"!="" ]]
-	then
+echo `pwd`
+result=`grep suscess outPut.log`
+#echo "1"
+if [[ "$result" != "" ]]
+  then
 		echo "$result"
 		echo "运行成功"
 		exit 0
-	else
+  else
+    echo "$result"
 		echo "运行失败"
 		exit 1
 fi
