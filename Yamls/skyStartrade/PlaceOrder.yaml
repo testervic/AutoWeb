@@ -34,8 +34,8 @@ testcase:
       operate_type: click
       info: 点击结算
       is_time: 5
-    - element_info: /html/body/sst-app/sst-app/section/div/shipping/div[2]/div[2]/div/div[1]/button
-      find_type: xpath
+    - element_info: .btn.btn-default.btn-icon-right.btn-lg.mb-10.xh-highlight
+      find_type: css
       operate_type: click
       info: 点击继续付款
       is_time: 5
