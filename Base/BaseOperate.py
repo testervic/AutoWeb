@@ -66,7 +66,6 @@ class OperateElement:
                 operate.get("msg", " "))
             print("==操作步骤：%s==" % info)
             logTest.buildStartLine(testInfo[0]["id"] + "_" + testInfo[0]["title"] + "_" + info)  # 记录日志
-
             if operate.get("operate_type", "0") == "0":  # 如果没有此字段，说明没有相应操作，一般是检查点，直接判定为成功
                 return {"result": True}
             elements = {

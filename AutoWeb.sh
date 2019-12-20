@@ -9,7 +9,7 @@ log_name=${TEXT%%:*}
 #echo "$TEXT"
 echo "$log_name"
 cd $log_name
-result=`tail -n 2 outPut.log | grep CheckPoint outPut.log |grep OK`
+result=`tail -n 2 outPut.log | grep CheckPoint outPut.log |grep suscess`
 if [[ "$result"!="" ]]
 	then
 		echo "$result"

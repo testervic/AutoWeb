@@ -92,6 +92,9 @@ def countDate(testDate, testSumDate):
     data = read(PATH("../Log/" + Element.SUM_FILE))
     print("==统计数据：%s==" % data)
 
+def getData():
+    data = read(PATH("../Log/" + Element.SUM_FILE))
+    return data
 
 '''
 测试报告

@@ -35,6 +35,10 @@ class Log:
         """
         return self.logger
 
+    def loggerr(self,a):
+        #a = text
+        self.logger.info(a)
+
     def buildStartLine(self, caseNo):
         """build the start log
         :param caseNo:
@@ -170,4 +174,4 @@ class myLog:
 if __name__ == "__main__":
     logTest = myLog.getLog("devices")
     # logger = logTest.getMyLogger()
-    logTest.buildStartLine("11111111111111111111111")
+    logTest.loggerr("123")

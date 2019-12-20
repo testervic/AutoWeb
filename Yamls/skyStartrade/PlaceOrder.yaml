@@ -34,7 +34,7 @@ testcase:
       operate_type: click
       info: 点击结算
       is_time: 5
-    - element_info: .btn.btn-default.btn-icon-right.btn-lg.mb-10.xh-highlight
+    - element_info: /html/body/sst-app/sst-app/section[@class='checkout']/div[@class='container']/shipping/div[2]//div[@class='cart-summary-shipping']/div[1]/button/span[@class='button-title']
       find_type: css
       operate_type: click
       info: 点击继续付款
