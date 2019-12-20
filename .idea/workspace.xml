@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50466659-5a31-4934-a7a3-ed77646f3b05" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yamls/skyStartrade/PlaceOrder.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Yamls/skyStartrade/PlaceOrder.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/info.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/log/info.pickle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/sum.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/log/sum.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoWeb.sh" beforeDir="false" afterPath="$PROJECT_DIR$/AutoWeb.sh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -224,7 +220,7 @@
       <updated>1492738167267</updated>
       <workItem from="1576466016503" duration="367000" />
       <workItem from="1576466421386" duration="34369000" />
-      <workItem from="1576808351338" duration="2028000" />
+      <workItem from="1576808351338" duration="2217000" />
     </task>
     <servers />
   </component>
