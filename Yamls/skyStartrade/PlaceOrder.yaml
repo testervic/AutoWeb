@@ -41,7 +41,7 @@ testcase:
       is_time: 10
 #    - element_info: /html/body/sst-app/sst-app/section/div/payment/div[1]/div[4]/div/div[1]/button
 #      find_type: xpath
-#      operate_type: click
+#      operate_type: click 
 #      info: 下订单
 
 check:
