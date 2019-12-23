@@ -34,11 +34,11 @@ testcase:
       operate_type: click
       info: 点击结算
       is_time: 5
-    - element_info: /html/body/sst-app/sst-app/section[@class='checkout']/div[@class='container']/shipping/div[2]//div[@class='cart-summary-shipping']/div[1]/button/span[@class='button-title']
+    - element_info: /html/body/sst-app/sst-app/section/div/shipping/div[2]/div[2]/div/div[1]/button
       find_type: css
       operate_type: click
       info: 点击继续付款
-      is_time: 5
+      is_time: 10
 #    - element_info: /html/body/sst-app/sst-app/section/div/payment/div[1]/div[4]/div/div[1]/button
 #      find_type: xpath
 #      operate_type: click

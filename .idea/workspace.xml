@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="50466659-5a31-4934-a7a3-ed77646f3b05" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutoWeb.sh" beforeDir="false" afterPath="$PROJECT_DIR$/AutoWeb.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yamls/skyStartrade/PlaceOrder.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Yamls/skyStartrade/PlaceOrder.yaml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -194,10 +194,10 @@
     </configuration>
     <list>
       <item itemvalue="Python.runner (1)" />
-      <item itemvalue="Python tests.Unittests in BaseRunner.py" />
-      <item itemvalue="Python tests.Unittests for TestCase.SkyStart" />
       <item itemvalue="Python.main" />
       <item itemvalue="Python.BaseLog" />
+      <item itemvalue="Python tests.Unittests in BaseRunner.py" />
+      <item itemvalue="Python tests.Unittests for TestCase.SkyStart" />
     </list>
     <recent_temporary>
       <list>
@@ -222,6 +222,7 @@
       <workItem from="1576466016503" duration="367000" />
       <workItem from="1576466421386" duration="34369000" />
       <workItem from="1576808351338" duration="8969000" />
+      <workItem from="1577092726449" duration="288000" />
     </task>
     <servers />
   </component>
@@ -233,7 +234,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
