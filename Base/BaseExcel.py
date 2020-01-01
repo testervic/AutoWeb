@@ -106,7 +106,7 @@ class OperateReport:
                 worksheet.set_row(temp, 30)
             else:
                 worksheet.insert_image('I' + str(temp), item["img"],
-                                       {'x_scale': 0.2, 'y_scale': 0.15, 'border': 1})
+                                       {'x_scale': 0.15, 'y_scale': 0.15, 'border': 1})
                 worksheet.set_row(temp - 1, 110)
             temp += 1
 
