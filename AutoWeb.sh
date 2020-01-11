@@ -6,8 +6,10 @@ sleep 5
 cd /Users/vic/.jenkins/workspace/GetAutoWebCode/log
 TEXT=`ls -lt *chrome* | head -n 1`
 log_name=${TEXT%%:*}
+DEL=`ls -ltr *chrome* | head -n 1`
+del_name=${DEL%%:*}
 #echo "$TEXT"
-echo "$log_name"
+echo "$log_name"  
 cd $log_name
 echo `pwd`
 result=`grep suscess outPut.log`
@@ -19,8 +21,8 @@ if [[ "$result" != "" ]]
 		cp /Users/vic/.jenkins/workspace/GetAutoWebCode/Report/ReportDetail.xlsx /Users/vic/.jenkins/workspace/RunAutoWeb/
 		cp /Users/vic/.jenkins/workspace/GetAutoWebCode/Log/*chrome*/outPut.log /Users/vic/.jenkins/workspace/RunAutoWeb/
 		cp /Users/vic/.jenkins/workspace/GetAutoWebCode/Log/*chrome*/*.png /Users/vic/.jenkins/workspace/RunAutoWeb/
-		rm -rf /Users/vic/.jenkins/workspace/GetAutoWebCode/Report/ReportDetail.xlsx
-		rm -rf /Users/vic/.jenkins/workspace/GetAutoWebCode/Log/*chrome*
+		# rm -rf /Users/vic/.jenkins/workspace/GetAutoWebCode/Report/ReportDetail.xlsx
+		rm -rf $del_name
 		exit 0
   else
     echo "$result"
@@ -28,7 +30,7 @@ if [[ "$result" != "" ]]
 		cp /Users/vic/.jenkins/workspace/GetAutoWebCode/Report/ReportDetail.xlsx /Users/vic/.jenkins/workspace/RunAutoWeb/
 		cp /Users/vic/.jenkins/workspace/GetAutoWebCode/Log/*chrome*/outPut.log /Users/vic/.jenkins/workspace/RunAutoWeb/
 		cp /Users/vic/.jenkins/workspace/GetAutoWebCode/Log/*chrome*/*.png /Users/vic/.jenkins/workspace/RunAutoWeb/
-		rm -rf /Users/vic/.jenkins/workspace/GetAutoWebCode/Report/ReportDetail.xlsx
-		rm -rf /Users/vic/.jenkins/workspace/GetAutoWebCode/Log/*chrome*
+		# rm -rf /Users/vic/.jenkins/workspace/GetAutoWebCode/Report/ReportDetail.xlsx
+		rm -rf $del_name
 		exit 1
 fi
