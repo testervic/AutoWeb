@@ -20,8 +20,7 @@ if [[ "$result" != "" ]]
 		cp /Users/vic/.jenkins/workspace/GetAutoWebCode/Log/*chrome*/outPut.log /Users/vic/.jenkins/workspace/RunAutoWeb/
 		cp /Users/vic/.jenkins/workspace/GetAutoWebCode/Log/*chrome*/*.png /Users/vic/.jenkins/workspace/RunAutoWeb/
 		rm -rf /Users/vic/.jenkins/workspace/GetAutoWebCode/Report/ReportDetail.xlsx
-		rm -rf /Users/vic/.jenkins/workspace/GetAutoWebCode/Log/*chrome*/outPut.log
-		rm -rf /Users/vic/.jenkins/workspace/GetAutoWebCode/Log/*chrome*/*.png
+		rm -rf /Users/vic/.jenkins/workspace/GetAutoWebCode/Log/*chrome*
 		exit 0
   else
     echo "$result"
@@ -30,7 +29,6 @@ if [[ "$result" != "" ]]
 		cp /Users/vic/.jenkins/workspace/GetAutoWebCode/Log/*chrome*/outPut.log /Users/vic/.jenkins/workspace/RunAutoWeb/
 		cp /Users/vic/.jenkins/workspace/GetAutoWebCode/Log/*chrome*/*.png /Users/vic/.jenkins/workspace/RunAutoWeb/
 		rm -rf /Users/vic/.jenkins/workspace/GetAutoWebCode/Report/ReportDetail.xlsx
-		rm -rf /Users/vic/.jenkins/workspace/GetAutoWebCode/Log/*chrome*/outPut.log
-		rm -rf /Users/vic/.jenkins/workspace/GetAutoWebCode/Log/*chrome*/*.png
+		rm -rf /Users/vic/.jenkins/workspace/GetAutoWebCode/Log/*chrome*
 		exit 1
 fi
