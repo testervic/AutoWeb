@@ -117,7 +117,7 @@ class Log:
         screenshotName = "CheckPoint_" + str(self.checkNo) + "_OK.png"
 
         # wait for animations to complete before taking screenshot
-        sleep(10)
+        sleep(5)
         # driver.get_screenshot_as_file(os.path.join(screenshotPath, screenshotName))
         driver.get_screenshot_as_file(os.path.join(screenshotPath + screenshotName))
         return os.path.join(screenshotPath + screenshotName)
