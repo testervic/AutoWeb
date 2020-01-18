@@ -12,6 +12,7 @@ del_name=${DEL%%:*}
 echo "$log_name"  
 cd $log_name
 echo `pwd`
+lg_path=`pwd`
 result=`grep suscess outPut.log`
 #echo "1"
 if [[ "$result" != "" ]]
@@ -19,10 +20,10 @@ if [[ "$result" != "" ]]
 		echo "$result"
 		echo "运行成功"
 		cp /Users/vic/.jenkins/workspace/GetAutoWebCode/Report/ReportDetail.xlsx /Users/vic/.jenkins/workspace/RunAutoWeb/
-		cp /Users/vic/.jenkins/workspace/GetAutoWebCode/Log/*chrome*/outPut.log /Users/vic/.jenkins/workspace/RunAutoWeb/
-		cp /Users/vic/.jenkins/workspace/GetAutoWebCode/Log/*chrome*/*.png /Users/vic/.jenkins/workspace/RunAutoWeb/
+		cp $lg_path/outPut.log /Users/vic/.jenkins/workspace/RunAutoWeb/
+		cp $lg_path/*.png /Users/vic/.jenkins/workspace/RunAutoWeb/
 		# rm -rf /Users/vic/.jenkins/workspace/GetAutoWebCode/Report/ReportDetail.xlsx
-		cd $log_name
+		cd /Users/vic/.jenkins/workspace/GetAutoWebCode/log
 		rm -rf $del_name
 		exit 0
   else
