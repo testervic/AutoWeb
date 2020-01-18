@@ -18,7 +18,7 @@ result=`grep suscess outPut.log`
 if [[ "$result" != "" ]]
   then
 		echo "$result"
-		echo "运行成功"
+		echo "运行成功.."
 		cp /Users/vic/.jenkins/workspace/GetAutoWebCode/Report/ReportDetail.xlsx /Users/vic/.jenkins/workspace/RunAutoWeb/
 		cp $lg_path/outPut.log /Users/vic/.jenkins/workspace/RunAutoWeb/
 		cp $lg_path/*.png /Users/vic/.jenkins/workspace/RunAutoWeb/
