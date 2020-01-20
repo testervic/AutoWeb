@@ -70,13 +70,6 @@ testHotTopic (TestCase.MyTest.MyTest) ... ==操作步骤：div.container>ul>li:n
 ==用例_热门话题检查点成功==
 ```
 
-
-**测试报告**
-
-![sum.png](Img/sum.png "sum.png")
-
-![detail.jpg](Img/detail.jpg "detail.jpg")
-
 # 其他 
 * [使用实例](use.md)
 * [changelog](CHANGELOG.md)
