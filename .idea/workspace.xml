@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50466659-5a31-4934-a7a3-ed77646f3b05" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/PageObject/ShPage/LoginShPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PageObject/ShPage/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCase/ShCase.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Yamls/shCase/Login.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/ReportDetail.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Report/ReportDetail.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Runner/runner.py" beforeDir="false" afterPath="$PROJECT_DIR$/Runner/runner.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yamls/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Yamls/config.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/info.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/log/info.pickle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/sum.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/log/sum.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yamls/shCase/Login.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Yamls/shCase/Login.yaml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -237,7 +229,7 @@
       <workItem from="1577240558363" duration="1751000" />
       <workItem from="1578725801818" duration="512000" />
       <workItem from="1578727271176" duration="293000" />
-      <workItem from="1582680372340" duration="806000" />
+      <workItem from="1582680372340" duration="1405000" />
     </task>
     <servers />
   </component>

@@ -2,7 +2,7 @@ testinfo:
     - id: test001
       title: 登录成功
       launch: 1
-      info: 打开
+      info: 打开网页
 testcase:
     - element_info: //input[@placeholder="请输入账号"]
       find_type: xpath
