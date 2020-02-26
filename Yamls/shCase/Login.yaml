@@ -1,0 +1,26 @@
+testinfo:
+    - id: test001
+      title: 登录成功
+      launch: 1
+      info: 打开
+testcase:
+    - element_info: //input[@placeholder="请输入账号"]
+      find_type: xpath
+      operate_type: send_keys
+      msg: leycloud
+      info: 输入用户名
+    - element_info: //input[@placeholder="请输入密码"]
+      find_type: xpath
+      operate_type: send_keys
+      msg: 123456789
+      info: 输入密码
+    - element_info: //button
+      find_type: xpath
+      operate_type: click
+      info: 点击登录
+
+check:
+    - element_info: //img[@class="user-avatar"]
+      find_type: xpath
+      operate_type: default_check
+      info: 登录成功
