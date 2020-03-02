@@ -1,0 +1,6 @@
+2020-03-02 14:45:41,560  - INFO - ----  test001_登录成功_//input[@placeholder="请输入账号"]_xpath_send_keys_leycloud        ----
+2020-03-02 14:45:42,400  - INFO - ----  test001_登录成功_//input[@placeholder="请输入密码"]_xpath_send_keys_123456789        ----
+2020-03-02 14:45:43,085  - INFO - ----  test001_登录成功_//button_xpath_click_         ----
+2020-03-02 14:45:52,707  - INFO - ----  test001_登录成功_//img[@class="user-avatar"]_xpath_default_check_         ----
+2020-03-02 14:45:52,710  - INFO - [CheckPoint_1]: testALogin_ : OK
+2020-03-02 14:46:05,056  - INFO - 执行成功-suscess

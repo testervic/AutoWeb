@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50466659-5a31-4934-a7a3-ed77646f3b05" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/dmg/chromedriver_linux" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yamls/shCase/Login.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Yamls/shCase/Login.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Base/BaseRunner.py" beforeDir="false" afterPath="$PROJECT_DIR$/Base/BaseRunner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageObject/cnblogs/AspNetPage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Report/ReportDetail.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Report/ReportDetail.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/CnblogsTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yamls/cnblogs/AspNet.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/info.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/log/info.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/sum.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/log/sum.pickle" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,15 +45,16 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dmg" />
+      <recent name="D:\app\wise-oper\common" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/TestCase" />
       <recent name="$PROJECT_DIR$/PageObject/ShPage" />
       <recent name="$PROJECT_DIR$/Yamls/shCase" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/PageObject/SkyStar" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\app\wise-oper\common" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -230,6 +238,7 @@
       <workItem from="1578725801818" duration="512000" />
       <workItem from="1578727271176" duration="293000" />
       <workItem from="1582680372340" duration="1405000" />
+      <workItem from="1583131216104" duration="868000" />
     </task>
     <servers />
   </component>
@@ -251,7 +260,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/selenium_master$Unittests_in_BaseRunner_py.coverage" NAME="Unittests in BaseRunner.py Coverage Results" MODIFIED="1576466890354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Base" />
-    <SUITE FILE_PATH="coverage/selenium_master$main.coverage" NAME="main Coverage Results" MODIFIED="1582681184597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/selenium_master$main.coverage" NAME="main Coverage Results" MODIFIED="1583132132512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/selenium_master$Unittests_for_Skystart_Skystart.coverage" NAME="Unittests for Skystart.Skystart Coverage Results" MODIFIED="1576486262817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
     <SUITE FILE_PATH="coverage/selenium_master$Unittests_for_Skystart_Skystart_testBLogin.coverage" NAME="Unittests for Skystart.Skystart.testBLogin Coverage Results" MODIFIED="1576486285525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
     <SUITE FILE_PATH="coverage/selenium_master$BaseLog.coverage" NAME="BaseLog Coverage Results" MODIFIED="1576831906394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Base" />

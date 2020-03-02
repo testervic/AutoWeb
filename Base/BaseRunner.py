@@ -11,8 +11,9 @@ PATH = lambda p: os.path.abspath(
     os.path.join(os.path.dirname(__file__), p)
 )
 
-
+#设置浏览器驱动，并打开浏览器访问指定URL
 def get_driver():
+    #获取当前系统
     system = platform.system()
     #mac
     if system == 'Darwin':
@@ -20,9 +21,13 @@ def get_driver():
     #win
     elif system == 'Windows':
         chromedriver = PATH("../exe/chromedriver.exe")
+    #Linux
+    elif system == 'Linux':
+        chromedriver = PATH("../dmg/chromedriver_linux")
     else:
-        print(system,",暂不支持该系统")
+        print(system,",暂不支持该平台系统")
     os.environ["webdriver.chrome.driver"] = chromedriver
+    #打开浏览器
     driver = webdriver.Chrome(chromedriver)
     driver.maximize_window()  # 将浏览器最大化
     openurl = getYam(PATH("../Yamls/config.yaml"))[1]["url"]
@@ -58,7 +63,7 @@ class ParametrizedTestCase(unittest.TestCase):
 
     @staticmethod
     def parametrize(testcase_klass, param=None):
-        print("---parametrize-----")
+        print("-----parametrize-----")
         print(param)
         testloader = unittest.TestLoader()
         #testnames = testloader.getTestCaseNames(testcase_klass)
