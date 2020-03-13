@@ -55,7 +55,6 @@ testBLogin (TestCase.HomeTest.HomeTest) ... ==操作步骤：div.container>ul>li
 ==操作步骤：dropdown-avatar_class_name_click_ ==
 ==操作步骤：//ul[@class='dropdown-menu']/li/a[contains(text(),'lose')]_xpath_ _ ==
 ==用例_登录检查点成功==
-[{'caseName': 'testALoginFail', 'step': '点击登录\n输入用户名\n输入密码\n点击登录\n', 'info': '打开testerhome', 'title': '登录失败', 'checkStep': '错误的密码登录不成功\n', 'id': 'test001', 'msg': '', 'name': 'chrome', 'result': '通过'}]
 ok
 testHotTopic (TestCase.MyTest.MyTest) ... ==操作步骤：div.container>ul>li:nth-child(2)_css_click_ ==
 ==操作步骤：input-lg_class_name_send_keys_lose==
